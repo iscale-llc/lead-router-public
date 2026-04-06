@@ -14,7 +14,9 @@ git clone https://github.com/iscale-llc/lead-router-public.git
 cd lead-router-public
 ```
 
-Then open Claude Code in this directory. It automatically loads the `CLAUDE.md` and all three role skills.
+Then open Claude Code in this directory. It automatically loads the `CLAUDE.md` and all skills.
+
+Say **"I'm new, help me get started"** or run `/welcome` — Claude Code will detect your role and walk you through setup step by step.
 
 ### Option 2: Copy just your role's skill
 

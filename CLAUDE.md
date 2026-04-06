@@ -2,6 +2,19 @@
 
 This file teaches Claude Code about the iSCALE lead routing platform — a B2B lead distribution system that routes leads from partners to buyers through offer-based contracts.
 
+## First Time Here?
+
+If the user is new to iSCALE or says anything like "get started", "I'm new", "help me set up", or "walk me through this" — run the `/welcome` skill. It will detect their role (admin, partner, or buyer) and walk them through setup step by step.
+
+## Available Skills
+
+| Skill | For | What it does |
+|-------|-----|--------------|
+| `/welcome` | Everyone | First-time setup wizard — detects role, checks MCP, guided walkthrough |
+| `/admin-guide` | Admins | Full platform config reference — entities, routing engine, troubleshooting |
+| `/partner-guide` | Partners | Lead submission, posting specs, campaigns, portal, API integration |
+| `/buyer-guide` | Buyers | Contracts, filters, delivery, dedup, billing, returns, portal |
+
 ## Core Concepts
 
 **Lead routing** = a partner submits a lead, the system evaluates which buyers want it, and delivers it to the winners.
